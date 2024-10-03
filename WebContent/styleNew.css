@@ -1,0 +1,401 @@
+﻿
+/* General CSS for desktop and mobile styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic layout that will work for desktops */
+.card-body {
+    padding: 20px;
+}
+
+/* Make the text responsive */
+h4 {
+    font-size: 1.5rem;
+}
+
+/* Make the layout responsive for smaller screens (up to 768px wide) */
+@media only screen and (max-width: 768px) {
+
+    /* Stack elements vertically on mobile */
+    .col-md-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        padding: 15px;
+        font-size: 1rem;
+        /* Smaller font for mobile */
+    }
+
+    /* Ensure images or background images fit the mobile screen */
+    .card-body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Responsive heading */
+    h4 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* Other mobile-specific styles can go here */
+}
+
+@media (max-width: 520px) {
+    .bt-comments-box ul.comments ul.children li.comment article:after {
+        background: #FF793E;
+    }
+}
+
+@media (max-width: 480px) {
+    .bt_bb_style_filled.bt_bb_organic_animation .item .item__meta .item__button_text a {
+        box-shadow: 0 0 0 0 #FF793E inset !important;
+    }
+}
+
+@media (max-width:767px) {
+    .mptt-shortcode-wrapper .mptt-shortcode-table:first-of-type {
+        display: none !important
+    }
+}
+
+@media (max-width: 520px) {
+    .bt-comments-box ul.comments ul.children li.comment article:after {
+        background: #FF793E;
+    }
+}
+
+@media (max-width: 480px) {
+    .bt_bb_style_filled.bt_bb_organic_animation .item .item__meta .item__button_text a {
+        box-shadow: 0 0 0 0 #FF793E inset !important;
+    }
+}
+
+@media (max-width:767px) {
+    .mptt-shortcode-wrapper .mptt-shortcode-table:first-of-type {
+        display: none !important
+    }
+}
+
+/* General CSS for desktop and mobile styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic layout that will work for desktops */
+.card-body {
+    padding: 20px;
+}
+
+/* Make the text responsive */
+h4 {
+    font-size: 1.5rem;
+}
+
+/* Make the layout responsive for smaller screens (up to 768px wide) */
+@media only screen and (max-width: 768px) {
+
+    /* Stack elements vertically on mobile */
+    .col-md-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-body {
+        padding: 15px;
+        font-size: 1rem;
+        /* Smaller font for mobile */
+    }
+
+    /* Ensure images or background images fit the mobile screen */
+    .card-body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Responsive heading */
+    h4 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* Other mobile-specific styles can go here */
+}
+
+@font-face {
+    font-family: "Business";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Business/Business.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Business/Business.ttf") format("truetype");
+}
+
+*[data-ico-business]:before {
+    font-family: Business;
+    content: attr(data-ico-business);
+}
+
+@font-face {
+    font-family: "Communication";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Communication/Communication.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Communication/Communication.ttf") format("truetype");
+}
+
+*[data-ico-communication]:before {
+    font-family: Communication;
+    content: attr(data-ico-communication);
+}
+
+@font-face {
+    font-family: "Construction";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Construction/Construction.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Construction/Construction.ttf") format("truetype");
+}
+
+*[data-ico-construction]:before {
+    font-family: Construction;
+    content: attr(data-ico-construction);
+}
+
+@font-face {
+    font-family: "CustomerSupport";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/CustomerSupport/CustomerSupport.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/CustomerSupport/CustomerSupport.ttf") format("truetype");
+}
+
+*[data-ico-customersupport]:before {
+    font-family: CustomerSupport;
+    content: attr(data-ico-customersupport);
+}
+
+@font-face {
+    font-family: "DentalCare";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/DentalCare/DentalCare.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/DentalCare/DentalCare.ttf") format("truetype");
+}
+
+*[data-ico-dentalcare]:before {
+    font-family: DentalCare;
+    content: attr(data-ico-dentalcare);
+}
+
+@font-face {
+    font-family: "Dentist1";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Dentist1/Dentist1.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Dentist1/Dentist1.ttf") format("truetype");
+}
+
+*[data-ico-dentist1]:before {
+    font-family: Dentist1;
+    content: attr(data-ico-dentist1);
+}
+
+@font-face {
+    font-family: "Dentist2";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Dentist2/Dentist2.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Dentist2/Dentist2.ttf") format("truetype");
+}
+
+*[data-ico-dentist2]:before {
+    font-family: Dentist2;
+    content: attr(data-ico-dentist2);
+}
+
+@font-face {
+    font-family: "DentistAndDentalCare";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/DentistAndDentalCare/DentistAndDentalCare.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/DentistAndDentalCare/DentistAndDentalCare.ttf") format("truetype");
+}
+
+*[data-ico-dentistanddentalcare]:before {
+    font-family: DentistAndDentalCare;
+    content: attr(data-ico-dentistanddentalcare);
+}
+
+@font-face {
+    font-family: "Dentistry";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Dentistry/Dentistry.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Dentistry/Dentistry.ttf") format("truetype");
+}
+
+*[data-ico-dentistry]:before {
+    font-family: Dentistry;
+    content: attr(data-ico-dentistry);
+}
+
+@font-face {
+    font-family: "Design";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Design/Design.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Design/Design.ttf") format("truetype");
+}
+
+*[data-ico-design]:before {
+    font-family: Design;
+    content: attr(data-ico-design);
+}
+
+@font-face {
+    font-family: "Development";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Development/Development.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Development/Development.ttf") format("truetype");
+}
+
+*[data-ico-development]:before {
+    font-family: Development;
+    content: attr(data-ico-development);
+}
+
+@font-face {
+    font-family: "Essential";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Essential/Essential.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Essential/Essential.ttf") format("truetype");
+}
+
+*[data-ico-essential]:before {
+    font-family: Essential;
+    content: attr(data-ico-essential);
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/FontAwesome/FontAwesome.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/FontAwesome/FontAwesome.ttf") format("truetype");
+}
+
+*[data-ico-fontawesome]:before {
+    font-family: FontAwesome;
+    content: attr(data-ico-fontawesome);
+}
+
+@font-face {
+    font-family: "FontAwesome5Brands";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/FontAwesome5Brands/FontAwesome5Brands.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/FontAwesome5Brands/FontAwesome5Brands.ttf") format("truetype");
+}
+
+*[data-ico-fontawesome5brands]:before {
+    font-family: FontAwesome5Brands;
+    content: attr(data-ico-fontawesome5brands);
+}
+
+@font-face {
+    font-family: "FontAwesome5Regular";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/FontAwesome5Regular/FontAwesome5Regular.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/FontAwesome5Regular/FontAwesome5Regular.ttf") format("truetype");
+}
+
+*[data-ico-fontawesome5regular]:before {
+    font-family: FontAwesome5Regular;
+    content: attr(data-ico-fontawesome5regular);
+}
+
+@font-face {
+    font-family: "FontAwesome5Solid";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/FontAwesome5Solid/FontAwesome5Solid.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/FontAwesome5Solid/FontAwesome5Solid.ttf") format("truetype");
+}
+
+*[data-ico-fontawesome5solid]:before {
+    font-family: FontAwesome5Solid;
+    content: attr(data-ico-fontawesome5solid);
+}
+
+@font-face {
+    font-family: "HelpAndSupport";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/HelpAndSupport/HelpAndSupport.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/HelpAndSupport/HelpAndSupport.ttf") format("truetype");
+}
+
+*[data-ico-helpandsupport]:before {
+    font-family: HelpAndSupport;
+    content: attr(data-ico-helpandsupport);
+}
+
+@font-face {
+    font-family: "Hospital";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Hospital/Hospital.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Hospital/Hospital.ttf") format("truetype");
+}
+
+*[data-ico-hospital]:before {
+    font-family: Hospital;
+    content: attr(data-ico-hospital);
+}
+
+@font-face {
+    font-family: "Icon7Stroke";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Icon7Stroke/Icon7Stroke.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Icon7Stroke/Icon7Stroke.ttf") format("truetype");
+}
+
+*[data-ico-icon7stroke]:before {
+    font-family: Icon7Stroke;
+    content: attr(data-ico-icon7stroke);
+}
+
+@font-face {
+    font-family: "Medical";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Medical/Medical.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Medical/Medical.ttf") format("truetype");
+}
+
+*[data-ico-medical]:before {
+    font-family: Medical;
+    content: attr(data-ico-medical);
+}
+
+@font-face {
+    font-family: "NavigationAndMaps";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/NavigationAndMaps/NavigationAndMaps.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/NavigationAndMaps/NavigationAndMaps.ttf") format("truetype");
+}
+
+*[data-ico-navigationandmaps]:before {
+    font-family: NavigationAndMaps;
+    content: attr(data-ico-navigationandmaps);
+}
+
+@font-face {
+    font-family: "Productivity";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Productivity/Productivity.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Productivity/Productivity.ttf") format("truetype");
+}
+
+*[data-ico-productivity]:before {
+    font-family: Productivity;
+    content: attr(data-ico-productivity);
+}
+
+@font-face {
+    font-family: "Science";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Science/Science.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Science/Science.ttf") format("truetype");
+}
+
+*[data-ico-science]:before {
+    font-family: Science;
+    content: attr(data-ico-science);
+}
+
+@font-face {
+    font-family: "Teamwork";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Teamwork/Teamwork.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Teamwork/Teamwork.ttf") format("truetype");
+}
+
+*[data-ico-teamwork]:before {
+    font-family: Teamwork;
+    content: attr(data-ico-teamwork);
+}
+
+@font-face {
+    font-family: "Tourism";
+    src: url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Tourism/Tourism.woff") format("woff"), url("https://denticare.bold-themes.com/allen/wp-content/themes/denticare/fonts/Tourism/Tourism.ttf") format("truetype");
+}
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply animation to the cards */
+.card {
+    opacity: 0;
+    /* Initial opacity to hide the cards */
+    animation: fadeIn 0.5s ease-in-out forwards;
+    /* Use forwards to keep the final state after animation */
+}
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
